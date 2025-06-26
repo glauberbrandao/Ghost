@@ -3,11 +3,11 @@
     "database": {
         "client": "postgres",
         "connection": {
-            "host": "${DB_HOST}",
-            "port": "${DB_PORT}",
-            "user": "${DB_USER}",
-            "password": "${DB_PASSWORD}",
-            "database": "${DB_NAME}",
+            "host": "${database__connection__host}",
+            "port": "${database__connection__port}",
+            "user": "${database__connection__user}",
+            "password": "${database__connection__password}",
+            "database": "${database__connection__database}",
             "ssl": true
         }
     },
