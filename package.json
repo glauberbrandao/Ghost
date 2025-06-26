@@ -1,0 +1,14 @@
+  {
+    "name": "ghost-app",
+    "version": "1.0.0",
+    "dependencies": {
+      "ghost": "^5.0.0"
+    },
+    "scripts": {
+      "start": "ghost start --no-setup",
+      "build": "npm install"
+    },
+    "engines": {
+      "node": "18.x"
+    }
+  }

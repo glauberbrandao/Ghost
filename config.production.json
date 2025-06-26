@@ -1,0 +1,18 @@
+{
+    "url": "https://glauberbrandao.dev",
+    "database": {
+        "client": "postgres",
+        "connection": {
+            "host": "${DB_HOST}",
+            "port": "${DB_PORT}",
+            "user": "${DB_USER}",
+            "password": "${DB_PASSWORD}",
+            "database": "${DB_NAME}",
+            "ssl": true
+        }
+    },
+    "server": {
+        "port": 2368,
+        "host": "0.0.0.0"
+    }
+}
